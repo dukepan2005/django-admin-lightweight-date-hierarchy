@@ -180,6 +180,7 @@ def date_hierarchy(cl):
 
             return {
                 'show': True,
+                'back': None,
                 'choices': [{
                     'link': link({year_field: str(year.year)}),
                     'title': str(year.year),
